@@ -1,0 +1,9 @@
+pip install Flask
+pip install flask-sqlalchemy
+pip install flask-migrate
+pip install flask-script
+
+python3.7 run.py runserver
+python3.7 run.py db init
+python3.7 run.py db migrate
+python3.7 run.py db upgrade
